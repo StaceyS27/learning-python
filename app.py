@@ -1,4 +1,7 @@
-print("   /|")
-print("  / |")
-print(" /  |")
-print("/___|")
+# Working with Strings
+
+phrase = "Giraffe Academy"
+print(phrase.replace("Giraffe", "Elephant"))
+
+
+
