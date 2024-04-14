@@ -37,8 +37,19 @@ runtime = 10
 rating_out_of_10 = 2.5
 print(rating_out_of_10)
 
-#_______________________________________________________________________________________
+#_______________________________________________________________________________________________
 # Calculations
+    # python performs arithmetic operations (addition, subtraction multiplication, division)
+    # when dividing integers though, all ints are converted to floats before performing divison
+        # in earlier python when this didn't happen, integer division would round down to nearest integer 
+        # now: print(10/5) would result in 2.0
+
+#__________________________________________________________________________________________________
+# Exponents 
+    
+# not easy to write exponents w/ keyboards so use this notation **
+print(2 ** 10) # means 2 to the 10th power or 1024
+print(8 ** 2) # 64
 
 
 
