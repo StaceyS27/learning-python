@@ -51,5 +51,27 @@ print(rating_out_of_10)
 print(2 ** 10) # means 2 to the 10th power or 1024
 print(8 ** 2) # 64
 
+#____________________________________________________________________________________________________
+# modulo
+
+# as the divdend increases by 1, so does the remainder
+# until we reach a number that is evenly divisible by the divisor (remainder now 0)
+# ex: 4%3=1, 5%3=2, 6%3=0
+
+# modulo operator useful when want to perform something on the nth time something occurs
+# ex: 7th customer gets a servey so everytime a customer(who is numbered)%7=0, receive a servey 
+    # 7th, 14th, 21st, etc 
+
+order_263_r = 263 % 11              # every 11th customer gets coupon but bc modulo results in 10, no coupon 
+print(order_263_r)
+order_263_coupon = "no"
+
+order_264_r = 264%11
+print(order_264_r)                  # results in 0
+order_264_coupon = "yes"
+
+#_______________________________________________________________________________________________________
+
+
 
 
