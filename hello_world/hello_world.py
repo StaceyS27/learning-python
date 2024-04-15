@@ -101,4 +101,17 @@ print(birthday_string, age, birthday_string_2)              # still prints "I am
 #_________________________________________________________________________________________________________
 # Plus Equals
 
+# plus-equals operator '+=' can be used to add to a current value of a variable
+number_of_miles_hiked = 12
+number_of_miles_hiked += 2
+print(number_of_miles_hiked)                # result in 14
+
+# or also for string concatenation 
+hike_caption = "What an amazing time to walk through nature!"
+hike_caption += " #nofilter"
+hike_caption += " #blessed"                  # adding tags to the caption
+
+#___________________________________________________________________________________________________________
+# Multi-line Strings 
+
 
