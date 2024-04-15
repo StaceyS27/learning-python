@@ -71,7 +71,34 @@ print(order_264_r)                  # results in 0
 order_264_coupon = "yes"
 
 #_______________________________________________________________________________________________________
+# Concatenation
+
+# '+' operator used to add two strings together - string concatenation 
+greeting_text = "Hey there!"
+question_text = "How are you doing?"
+full_text = greeting_text + question_text
+
+# Prints "Hey there!How are you doing?"             # need to add empty string to create space b/w text
+print(full_text)
+
+full_text = "greeting_text" + " " + question_text
+print(full_text)                                    # now: Hey there! How are you doing?"
 
 
+# to concatenate a string with a number, need to convert the number to a string first
+# use the str() function 
+birthday_string = "I am "
+age = 10
+birthday_string_2 = " years old today!"
+
+full_birthday_string = birthday_string + str(age) + birthday_string_2
+print(full_birthday_string)
+
+# can also just pass a string and a number into print() as seperate arguments as well
+# without having to convert the number into a string 
+print(birthday_string, age, birthday_string_2)              # still prints "I am  10  years old today!" (but w/ extra spaces)
+
+#_________________________________________________________________________________________________________
+# Plus Equals
 
 
