@@ -114,4 +114,14 @@ hike_caption += " #blessed"                  # adding tags to the caption
 #___________________________________________________________________________________________________________
 # Multi-line Strings 
 
+# use three quote-marks (""") or (''') in the beginning and the end of a multi-line string
+# to let python know that the string doesn't need until the closing 3 quotes are encountered
+leaves_of_grass = """
+Poets to come! orators, singers, musicians to come!
+Not to-day is to justify me and answer what I am for,
+But you, a new brood, native, athletic, continental, greater than
+  before known,
+Arouse! for you must justify me.
+"""
 
+# if multi-line string is not assigned to a variable, it is treated like a comment 
