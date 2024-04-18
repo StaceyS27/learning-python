@@ -47,3 +47,14 @@ if 2 == 4-2:                # evaluates to true as well
 
 #________________________________________________________________________________
 # Relational Operators II
+
+# boolean expressions are created with different relational operatiors 
+    # >, >=, <, <=, !=, ==
+
+credits = 120
+
+if credits >= 120:
+  print("You have enough credits to graduate")
+
+#________________________________________________________________________________
+# Boolean Operators: and
