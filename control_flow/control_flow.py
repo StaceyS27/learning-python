@@ -33,3 +33,17 @@ print(bool_three)  # bool_three variable will now be True and will print that
 #_______________________________________________________________________________
 # If Statement 
 
+# boolean variables and expressions are used to created conditional statements 
+# if statement created using colon 
+
+# boolean variable 
+is_raining = True
+if is_raining: 
+    print("bring an umbrella")
+
+# boolean expression
+if 2 == 4-2:                # evaluates to true as well 
+    print("apple")
+
+#________________________________________________________________________________
+# Relational Operators II
