@@ -58,3 +58,22 @@ if credits >= 120:
 
 #________________________________________________________________________________
 # Boolean Operators: and
+
+# boolean operators (also known as logical operators) 
+# combines smaller boolean expressions into larger ones 
+    # other examples are 'or' and 'not'
+
+credits = 120
+gpa = 3.4
+
+if (credits >= 120) and (gpa >= 2.0):
+  print("You meet the requirements to graduate!") 
+  
+# will print statement bc both boolean expressions evaluate to true
+# can also write each expression without parathesis 
+
+# storing larger boolean expression within variable 
+statement_one = (2+2+2 >= 6) and (-1*-1 < 0)
+
+#__________________________________________________________________________________
+# Boolean Operators: or
