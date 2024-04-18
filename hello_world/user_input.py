@@ -8,3 +8,4 @@
 likes_snakes = input("Do you like snakes?")
 # likes_snakes will be assigned a value of the user's answer
 # program will print "Do you like snakes?" which is the prompt the user will answer
+
