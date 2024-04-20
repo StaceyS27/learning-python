@@ -77,3 +77,12 @@ statement_one = (2+2+2 >= 6) and (-1*-1 < 0)
 
 #__________________________________________________________________________________
 # Boolean Operators: or
+
+credits = 118
+gpa = 2.0
+
+if (credits>=120) or (gpa>=2):
+  print("You have met at least one of the requirements.")
+
+#___________________________________________________________________________________
+# Boolean Operators: not
