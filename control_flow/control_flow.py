@@ -121,5 +121,19 @@ else:
 #_________________________________________________________________________________________
 # Else if Statements 
 
+# in the if/else if/else block, if one of the if's are fullfilled, then exits block all together
+# else if written as elif in python
 
+grade = 86
+
+if grade >= 90:               # will print "B" and since condition already met, will exist if/elif/else block entirely 
+  print("A")                  # and not check the rest 
+elif grade >= 80:
+  print("B")
+elif grade >= 70:
+  print("C")
+elif grade >= 60:
+  print("D")
+else: 
+  print("F")
 
