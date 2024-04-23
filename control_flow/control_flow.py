@@ -110,4 +110,16 @@ if (not credits >= 120) and (not gpa >= 2.0):
 #________________________________________________________________________________________
 # Else Statements 
 
+credits = 120
+gpa = 1.9
+
+if (credits >= 120) and (gpa >= 2.0):                         # both expressions have to evaluate to true so that the if statement can execute bc use of 'and'
+  print("You meet the requirements to graduate!")
+else:
+  print("You do not meet the requirements to graduate.")    # will print this since gpa is too low 
+
+#_________________________________________________________________________________________
+# Else if Statements 
+
+
 
