@@ -86,3 +86,28 @@ if (credits>=120) or (gpa>=2):
 
 #___________________________________________________________________________________
 # Boolean Operators: not
+
+# reverses value of the variable/expression
+not True == False
+not False == True
+
+not 1 + 1 == 2  # False
+not 7 < 0       # True
+
+# create checks using 'and' and 'not'
+credits = 120                                 # will only print your gpa is not high enough to graduate 
+gpa = 1.8
+
+if not credits >= 120:
+  print ("You do not have enough credits to graduate.")
+
+if not gpa >= 2.0:                                              # will reverse expression value which is initially false to true
+  print ("Your GPA is not high enough to graduate.")
+
+if (not credits >= 120) and (not gpa >= 2.0):
+  print ("You do not meet either requirement to graduate!")
+
+#________________________________________________________________________________________
+# Else Statements 
+
+
