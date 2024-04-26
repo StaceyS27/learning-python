@@ -23,4 +23,20 @@ price_premium_ground = 125
 print("Ground Shipping Premium $", price_premium_ground)
 
 # drone shipping
+if weight <= 2:
+  price_drone = 4.50 * weight
+elif weight <= 6:
+  price_drone = 9.00 * weight
+elif weight <= 10:
+  price_drone = 12.00 * weight
+else:
+  price_drone = 14.25 * weight
 
+print("Drone Shipping Price $", price_drone)
+
+
+# finding cheapest method to send package
+# 4.8lbs
+    # regular ground $34.40
+# 41.5
+    # ground premium at 125
