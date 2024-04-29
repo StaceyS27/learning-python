@@ -35,3 +35,16 @@ example_list.remove(5)          # like pop in js
 print(example_list)             # [1, 2, 3, 4]
 
 #_________________________________________________________________________________
+# Growing a List: Append
+
+# append is used to add a single element to the end of a list in python
+orders = ["daisies", "periwinkle"]
+print(orders)
+
+orders.append("tulips")
+orders.append("roses")
+
+print(orders)   
+
+#________________________________________________________________________________
+# Growing a List: Plus (+)
