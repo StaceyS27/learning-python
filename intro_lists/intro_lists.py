@@ -88,3 +88,16 @@ calls[int(4/2)]   # same as calls[2]
 #___________________________________________________________________________________
 # Accessing List Elements: Negative Index
 
+# can select last element in the list by using index of -1
+shopping_list = ["eggs", "butter", "milk", "cucumbers", "juice", "cereal"]
+
+last_element = shopping_list[-1]
+print(last_element)                     # will print cereal
+
+index5_element = shopping_list[5]
+print(index5_element)                   # will also print cereal bc targeting same element
+
+# index -6 also same as index 0 --> "eggs"
+
+#____________________________________________________________________________________
+# Modifying List Elements
