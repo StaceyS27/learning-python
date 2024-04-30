@@ -48,3 +48,23 @@ print(orders)
 
 #________________________________________________________________________________
 # Growing a List: Plus (+)
+
+# can use the + sign to combine two lists together 
+    # known as concatenation
+# cannot add integers with the list 
+    # will get a type error stating that only lists, not int can be concatenated 
+
+orders = ["daisy", "buttercup", "snapdragon", "gardenia", "lily"]
+
+# Create new orders here:
+new_orders = ["lilac", "iris"]
+
+# combine orders
+orders_combined = orders + new_orders
+print(orders_combined)
+
+# only works when 4 is in the list, not an int itself 
+broken_prices = [5, 3, 4, 5, 4] + [4]
+
+#_________________________________________________________________________________
+# Accessing List Elements
