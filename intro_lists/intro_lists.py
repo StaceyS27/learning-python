@@ -68,3 +68,23 @@ broken_prices = [5, 3, 4, 5, 4] + [4]
 
 #_________________________________________________________________________________
 # Accessing List Elements
+
+# elements in the list are accessed as they are in js
+# python lists are zero-indexed
+
+calls = ["Juan", "Zofia", "Amare", "Ezio", "Ananya"]
+calls[2]  # Amare
+
+# index to access an element must be an integer
+# important because calls[4/2] would be an error because 4/2 is 2.0 (a float)
+# to solve use int() function - cuts off decimal point in number
+
+int(5.9) # 5
+int(5.0) # 5
+
+# so would have to do ..
+calls[int(4/2)]   # same as calls[2]
+
+#___________________________________________________________________________________
+# Accessing List Elements: Negative Index
+
