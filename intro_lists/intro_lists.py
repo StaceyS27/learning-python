@@ -101,3 +101,12 @@ print(index5_element)                   # will also print cereal bc targeting sa
 
 #____________________________________________________________________________________
 # Modifying List Elements
+
+# can update value on a list/a particular element by reassigning a new value
+garden = ["Tomatoes", "Green Beans", "Cauliflower", "Grapes"]
+garden[2] = "Strawberries"
+
+print(garden)  # ["Tomatoes", "Green Beans", "Strawberries", "Grapes"]
+
+#___________________________________________________________________________________
+# Shrinking a List: Remove
