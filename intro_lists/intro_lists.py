@@ -110,3 +110,15 @@ print(garden)  # ["Tomatoes", "Green Beans", "Strawberries", "Grapes"]
 
 #___________________________________________________________________________________
 # Shrinking a List: Remove
+
+# .remove() python method removes elements from a list 
+shopping_line = ["Cole", "Kip", "Chris", "Sylvana"]
+shopping_line.remove("Chris")
+
+print(shopping_line)    # ["Cole", "Kip", "Sylvana"]
+
+# if remove method is used on an element that repeats more than once,
+# only the first instance is removed 
+
+#____________________________________________________________________________________
+# Two-Dimensional (2D) Lists
